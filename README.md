@@ -9,5 +9,7 @@ and using a NCV7356/TH8056 breakout board:
 https://circuitmaker.com/Projects/Details/Craig-Peacock-4/SWCAN-Breakout
 
 Compile using gcc:
-gcc ChargePortDecoder.c -o ChargePortDecoder
+````
+$ gcc ChargePortDecoder.c -o ChargePortDecoder
+````
 Code hardcoded to use CAN0 interface, but can be changed in code.
