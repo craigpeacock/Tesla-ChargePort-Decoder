@@ -12,4 +12,7 @@ Compile using gcc:
 ````
 $ gcc ChargePortDecoder.c -o ChargePortDecoder
 ````
-Code hardcoded to use CAN0 interface, but can be changed in code.
+Code hardcoded to use CAN0 interface, but can be changed in code. SWCAN link runs at 33,000bps. Setup link using: 
+````
+sudo /sbin/ip link set can0 up type can bitrate 33300
+````
