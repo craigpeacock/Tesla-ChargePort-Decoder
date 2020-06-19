@@ -6,6 +6,7 @@ Software written for and tested on a beaglebone black:
 https://www.beyondlogic.org/adding-can-to-the-beaglebone-black/
 
 and using a NCV7356/TH8056 breakout board: 
+https://www.beyondlogic.org/swcan-single-wire-can-transceiver-breakout-board/
 https://circuitmaker.com/Projects/Details/Craig-Peacock-4/SWCAN-Breakout
 
 Compile using gcc:
